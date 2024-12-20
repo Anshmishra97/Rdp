@@ -8,7 +8,7 @@ Jobs:
 
 build:
 
-name: Start Building...
+name:Start Building...
 
 runs-on: windows-latest
 
@@ -16,11 +16,11 @@ timeout-minutes: 9999
 
 
 
-steps:I
+steps: 1
 
 name: Downloading & Installing Essentials
 
-run: I
+run: 1
 
 Invoke-WebRequest Url "https://gitlab.com/chamod12/1m_win-10_github_rop/-/raw/main/Downloads.bat" -OutFile "Down
 
